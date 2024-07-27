@@ -1,2 +1,2 @@
-# dotfiles(?!)
- My styles and configurations for various apps/programs 
+# dotfiles(🤨?!)
+ My styles and configurations for various apps/programs.
