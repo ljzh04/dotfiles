@@ -1,0 +1,200 @@
+* {
+    /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
+    /* Icon set: https://fontawesome.com/v5.15/how-to-use/on-the-desktop/setup/getting-started */
+    font-family: 'Courier New', 'bars', '3270 Nerd Font';
+    font-size: 14px;
+    color: #f2e5bc;
+   
+}
+
+.bar {
+  background: rgba(0,0,0,0.75);
+  padding: 0 5px;
+}
+.container-left .widget,
+.container-right .widget {
+  margin: 0px;
+  border-radius: 0px;
+}
+.container-left .widget *,
+.container-right .widget * {
+  color: #242424;
+}
+.komorebi-workspaces {
+  margin-left: 0;
+}
+.ws-btn {
+    padding: 8px;
+    color: rgba(168, 153, 132, 0.3);
+    margin: 2px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.ws-btn:hover {
+    font-weight: bold;
+}
+
+.ws-btn.populated {
+    color: #ebdbb2;
+}
+.ws-btn.active {
+    color: rgba(251, 241, 199, 0.85);
+    border: 1px solid rgba(251, 241, 199, 0.85);
+}
+.ws-btn:hover {
+  color: red;
+}
+.ws-btn.active:hover{
+  color: #ebdbb2;
+  font-weight: normal;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  color: #d6ceab;
+  padding: 2px 0px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.cpu-widget .label:hover,
+.wifi-widget .label:hover,
+.memory-widget .label:hover,
+.traffic-widget .label:hover,
+.battery-widget .label:hover{
+}
+
+.battery-widget .label.status-critical,
+.battery-widget .label.status-low{
+  background: #1d1c1c;
+  color: red;
+}
+.battery-widget .label.status-medium,
+.battery-widget .label.status-high,
+.battery-widget .label.status-full,
+.battery-widget .label.status-charging {
+}
+
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label.status-low {
+  background: #689d6a;
+}
+.memory-widget .label.status-medium {
+  background: #fe8019;
+}
+.memory-widget .label.status-high {
+  background: #cc241d;
+}
+.active-window-widget{
+}
+.active-window-widget .label {
+  color: darkgoldenrod;
+  background: #000;
+  margin-bottom: 0px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.komorebi-active-layout .label {
+  color: lawngreen;
+}
+
+.clock-widget .label{
+  font-family: "3270 Nerd Font";
+  font-weight: bold;
+  color: #ebdbb2;
+
+}
+.clock-widget *{
+  border: 1px solid #ebdbb2;
+  border-radius: 5px;
+}
+
+.custom-widget {
+    padding: 2px 6px;
+    font-size: 14px;
+}
+.custom-widget .icon {
+    font-size: 13px;
+}
+.custom-widget .icon.icon-left {
+    margin-right: 5px;
+}
+.custom-widget .icon.icon-right {
+    margin-left: 5px;
+}
+.custom-widget.hostname-widget {
+    background: #83a598;
+}
+.custom-widget .label{
+   color: #ebdbb2;
+}
+.custom-widget .label:hover {
+}
+.custom-widget.user_button-widget{
+  padding: 9px;
+  border: 1px solid #ebdbb2;
+  border-radius: 5px;
+  margin-right: 0px;
+}
+.custom-widget.user_button-widget .label{
+}
+.custom-widget.user_button-widget .label:hover{
+  color: red;
+}
+.custom-widget.plus-widget{
+}
+.custom-widget.browser-widget{
+  border: 1px solid #ebdbb2;
+  border-right: 0px;
+  border-radius: 5px;
+  margin-right: -4px;
+}
+.custom-widget.explorer-widget{
+  border: 1px solid #ebdbb2;
+  border-left: 0px;
+  border-right: 0px;
+  margin-left: -3px;
+  margin-right: -6px;
+}
+.custom-widget.terminal-widget{
+  border: 1px solid #ebdbb2;
+  border-left: 0px;
+  border-radius: 5px;
+  margin-left: -4px;
+
+}
+.custom-widget.komorebi_ahk-widget{
+  border: 1px solid #ebdbb2;
+  border-radius: 5px;
+  margin-left: 2px;
+}
+.custom-widget.browser-widget .label{color: lightblue;}
+.custom-widget.explorer-widget .label{color: palevioletred;}
+.custom-widget.terminal-widget .label{color: yellowgreen;}
+
+.leftborder{
+  border: 1px solid #ebdbb2;
+  border-right: 0px;
+  border-radius: 5px;
+  margin-right: -4px;
+}
+.middleborder{
+  border: 1px solid #ebdbb2;
+  border-left: 0px;
+  border-right: 0px;
+  margin-left: -3px;
+  margin-right: -6px;
+}
+.rightborder{
+  border: 1px solid #ebdbb2;
+  border-radius: 5px;
+  margin-left: 2px;
+}

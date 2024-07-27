@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config C:\Users\LJ\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json | Invoke-Expression

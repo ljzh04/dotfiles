@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.25/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.yaml",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "mouse_follows_focus": false,
+  "default_workspace_padding": 10,
+  "default_container_padding": 10,
+  "border": false,
+  "border_width": 3,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#ff0000",
+    "stack": "#00a542",
+    "monocle": "#ff3399",
+    "unfocused": "#000000"
+  },
+  "animation": {
+    "enabled": false
+  },
+  "transparency": true,
+  "transparency_alpha": 230,
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "II",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "III",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "VI",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "VII",
+          "layout": "UltrawideVerticalStack"
+        },
+	{
+          "name": "VIII",
+          "layout": "UltrawideVerticalStack"
+        },
+	{
+          "name": "IX",
+          "layout": "UltrawideVerticalStack"
+        }
+      ]
+    }
+  ]
+}
