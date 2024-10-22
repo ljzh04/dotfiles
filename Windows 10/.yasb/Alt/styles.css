@@ -1,0 +1,180 @@
+* {
+    /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
+    /* Icon set: https://fontawesome.com/v5.15/how-to-use/on-the-desktop/setup/getting-started */
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 11px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: -10000px;
+}
+
+.bar {
+    background: rgba(0, 0, 0, 0.75);
+    border: 0px solid #727272;
+    padding-bottom: 0px;
+}
+
+.container-right .widget {
+}
+
+.container-left .widget {
+}
+
+.komorebi-workspaces {
+  margin-left: 0;
+}
+
+.ws-btn {
+    padding: 4px 5px 5px 5px;
+    background: rgba(60, 56, 54, 0.0);
+    border: 0px solid rgba(168, 153, 132, 0.4);
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+.ws-btn:hover,
+.ws-btn.active:hover{
+    background: rgba(200, 200, 200, 0.15);
+}
+.ws-btn.populated {
+    border-color: rgba(168, 153, 132, 0);
+}
+.ws-btn.active,
+.ws-btn.active:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.custom-widget {
+    padding: 4px 5px 5px 5px;
+    font-size: 11px;
+    background: rgba(85, 204, 188, 0.0);
+    border: 0px solid #4e525f;
+    border-radius: 3px;
+}
+.custom-widget .icon {
+  font-size: 11px;
+}
+.custom-widget .label {
+  margin: 0px 0px 0px 0px;
+  margin-left: -1;
+}
+.custom-widget:hover {
+  background: rgba(192, 192, 192, 0);
+}
+.custom-widget .icon.icon-left {
+  margin-right: 0px;
+}
+.custom-widget .icon.icon-right {
+  margin-left: 0px;
+}
+.custom-widget.hostname-widget {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.custom-widget.terminal-widget {
+  font-size: 11px;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  font-size: 11px;
+  padding: 0px 2px 0px 2px;
+  margin: 0px 0px 0px 0px;
+}
+.battery-widget .label{
+  margin: 0px 0px 0px 3px;
+  border-radius: 3px;
+}
+
+.traffic-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+}
+.wifi-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+}
+.cpu-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+  padding: 0px 0px 0px 0px;
+}
+
+.battery-widget .label.status-critical {
+ 
+}
+.battery-widget .label.status-low {
+  
+}
+.battery-widget .label.status-medium {
+ 
+}
+.battery-widget .label.status-high {
+  
+}
+.battery-widget .label.status-full {
+  
+}
+.battery-widget .label.status-charging {
+  
+}
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+}
+.active-window-widget {
+  margin-left: 5px;
+}
+.active-window-widget .label {
+  padding: 0px 0px 0 0px;
+  background: rgba(153, 224, 120, 0);
+  margin-bottom: -1px;
+  border-radius: 3px;
+  margin: 5px;
+  border: 0px solid #4e525f;
+}
+
+.komorebi-active-layout .label {
+  margin: 0px 0px 0px 0px;
+}
+
+.clock-widget .label {
+  font-size: 11px;
+  background: rgba(17, 20, 43, 0.0);
+  border: 0px solid #4e525f;
+  padding-bottom: -1px;
+  margin: 0px 0px 0px 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.notification-widget .label{
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+.notification-widget .label:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+.user_button-widget .label,
+.browser-widget .label,
+.explorer-widget .label,
+.terminal-widget .label{
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+.browser-widget .label:hover,
+.explorer-widget .label:hover,
+.terminal-widget .label:hover,
+.wifi-widget .label:hover,
+.battery-widget .label:hover,
+.clock-widget .label:hover{
+  background: rgba(200, 200, 200, 0.15);
+}
